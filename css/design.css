@@ -1,0 +1,64 @@
+body{
+    font-size: 40px;
+    color: darkcyan;
+    font-weight: 500;
+    font-style: italic;
+}
+h1.cell{
+    
+    background-color: black;
+    color: cornsilk;
+    text-align: center;
+    font-style: normal;
+ } 
+ .fuente-enlace{
+     font-family: 'Satisfy', cursive;
+     font-size: 25px;
+     text-align: right;
+ }
+ h3{
+     text-align: center;
+     color: darkblue;
+     border-bottom: 3px dotted gray;   
+ }
+p{
+    font-size: 1Xem;
+}
+#parrafoespecial{
+    text-align: center;
+    font-style: normal;
+    color: rgb(48, 48,48);
+    font-weight: 400;
+    font-size: 0.7em;
+}
+img{
+    display: block;
+    margin:  0 auto;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+p.img-card1{
+    text-align: center;
+    color: rgb(48, 48,48);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 0.2em;
+    }
+p.img-card{
+text-align: center;
+color: rgb(48, 48,48);
+font-size: .45em;
+font-style: normal;
+line-height: 0.2em;
+}
+div.box-card{
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 15px;
+    border-radius: 7px;
+}
+div.main-content{
+    width: 1250px;
+    margin: 0 auto;
+}
