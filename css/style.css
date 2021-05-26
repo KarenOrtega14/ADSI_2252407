@@ -13,7 +13,7 @@ p.tarjeta1, p.tarjeta2, p.tarjeta3, p.tarjeta4, p.tarjeta5{
 p.tarjeta1, p.tarjeta2, p.tarjeta3, p.tarjeta4, p.tarjeta5, h1.cell, h1.registro{
     color: cornsilk;
 }
-h2.espaciola, p.fuente-enlace, blockquote{
+h2.espaciola, p.fuente-enlace, blockquote, p.fuente-enlace2{
     text-align: right;
 }
 h2.font-Satisfy, .font-negrita, .font-italica{
@@ -40,7 +40,7 @@ p.bordetop{
    border-top: 2px dashed red;  
    margin: 1.5em;
 }
-p.fuente-enlace, h2.font-Satisfy{
+p.fuente-enlace, h2.font-Satisfy, p.fuente-enlace2{
     font-family: 'Satisfy', cursive;
     font-size: 25px;
  }
