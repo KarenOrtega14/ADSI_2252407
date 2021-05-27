@@ -4,7 +4,22 @@ body{
     font-weight: 500;
     font-style: italic;
 }
-
+div.menu{
+    background-color:black;
+    width: 100%;
+    text-align: center;
+}
+p.fuente-enlace, p.fuente-enlace2{
+    display: inline-block;
+    padding: 5px;
+}
+span.prueba{
+    color: cornsilk;
+}
+p.fuente-enlace, h2.font-Satisfy, p.fuente-enlace2{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
 img.p{
     margin-left: 20px;
     margin-right: 20px;
@@ -32,10 +47,10 @@ h1{
      color:black;
 }
 h1.cell{
-     background-color: black;
-     color: cornsilk;
+     color: rgb(0, 0, 0);
       text-align: center;
      font-style: normal;
+     font-size: 1em;
 } 
 .fuente-enlace{
      font-family: 'Satisfy', cursive;

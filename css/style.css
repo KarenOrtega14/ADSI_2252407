@@ -1,6 +1,17 @@
 body{
     text-align: center;
 }
+div.menu{
+    background-color:black;
+    width: 100%;
+}
+p.fuente-enlace, p.fuente-enlace2{
+    display: inline-block;
+    padding: 5px;
+}
+span.prueba{
+    color: cornsilk;
+}
 p.tarjeta1, p.tarjeta2, p.tarjeta3, p.tarjeta4, p.tarjeta5{
     display: inline-block;
     text-align: justify;
@@ -10,17 +21,18 @@ p.tarjeta1, p.tarjeta2, p.tarjeta3, p.tarjeta4, p.tarjeta5{
     margin-bottom: 10px;
     width: 160px;
 }
-p.tarjeta1, p.tarjeta2, p.tarjeta3, p.tarjeta4, p.tarjeta5, h1.cell, h1.registro{
+p.tarjeta1, p.tarjeta2, p.tarjeta3, p.tarjeta4, p.tarjeta5, h1.registro{
     color: cornsilk;
 }
-h2.espaciola, p.fuente-enlace, blockquote, p.fuente-enlace2{
+h2.espaciola, blockquote{
     text-align: right;
 }
-h2.font-Satisfy, .font-negrita, .font-italica{
+h2.font-Satisfy, .font-negrita{
     text-align: left;
 }
  h1.cell{
-    font-size: 65px;
+    font-size: 45px;
+    color: black;
  } 
  h2.espaciol{
     line-height: 3em;
@@ -33,12 +45,6 @@ img{
     display: block;
     border: 3px solid rgb(12, 0, 173);
     padding: 2em;
-}
-p.bordetop{
-   text-align: justify;
-   font-size: 2em;
-   border-top: 2px dashed red;  
-   margin: 1.5em;
 }
 p.fuente-enlace, h2.font-Satisfy, p.fuente-enlace2{
     font-family: 'Satisfy', cursive;
@@ -58,7 +64,11 @@ margin-right: 350px;
 }
 .font-Newsreader{
     font-family: 'Newsreader', serif;
-    font-size: 3.5em;
+    text-align: justify;
+   font-size: 2em;
+   border-top: 2px dashed red;  
+   margin: 1.5em;
+  margin-top: 5px;
 }
 .font-negrita, span.resaltado{
     font-weight:bold;
@@ -86,12 +96,17 @@ span.resaltado{
  }
  
 fieldset.fo{
+    margin-top: 20px;
     border-radius: 7px;
     background-color:rgb(253, 238, 238);
 }
-fieldset.C, h1.registro, h1.cell{
-    background-color: rgb(0, 0, 0);
+
+fieldset.formcitas{
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color:rgb(253, 238, 238);
 }
+ 
  h1.registro{
     border: 5px dotted blanchedalmond;
     height: 60px; 
@@ -162,3 +177,34 @@ div.contenedor-1{
          url('../fonts/jura-v16-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/jura-v16-latin-500.svg#Jura') format('svg'); /* Legacy iOS */
   }
+  table{
+    margin: 0 auto;
+    width: 1050px;
+    padding: 15px;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+tr, th.color1,th.color2,th.color3,th.color4{
+    border: 1.5px solid rgb(252, 232, 198);
+    font-size: 25px;
+    font-family: 'Jura'; 
+    font-style: normal;
+    color: black;
+}
+th.color1,th.color2,th.color3,th.color4{
+    padding: 30px;
+    color:white; 
+    text-align: center;
+}
+th.color1, th.color2, th.color3, th.color4, td{
+    border: 1.5px solid rgb(0, 0, 0);
+    color:white;
+    background-color: rgb(48, 48, 47);
+}
+td{
+    padding: 20px 20px;
+    background-color: rgb(248, 214, 170);
+    border-collapse: collapse;
+    text-align: left;
+    color: black;
+}
