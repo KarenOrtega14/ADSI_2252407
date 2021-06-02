@@ -1,22 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-size: 40px;
     color: darkcyan;
-    font-weight: 500;
     font-style: italic;
 }
-div.menu{
-    background-color:black;
-    width: 100%;
-    text-align: center;
+div.tituloP{
+    margin-top: 20px;
 }
-p.fuente-enlace, p.fuente-enlace2{
-    display: inline-block;
-    padding: 5px;
-}
-span.prueba{
-    color: cornsilk;
-}
-p.fuente-enlace, h2.font-Satisfy, p.fuente-enlace2{
+
+h2.font-Satisfy{
     font-family: 'Satisfy', cursive;
     font-size: 25px;
 }
@@ -39,9 +34,7 @@ div.b2{
      margin-right: 20px;
      margin-left: 20px;
 }
-.estilo-enlace{
-     font-size: 20px;
-}
+
 h1{
      text-align: center;
      color:black;
@@ -52,11 +45,7 @@ h1.cell{
      font-style: normal;
      font-size: 1em;
 } 
-.fuente-enlace{
-     font-family: 'Satisfy', cursive;
-     font-size: 25px;
-     text-align: right;
-}
+
 h3{
      text-align: center;
      color: darkblue;

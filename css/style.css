@@ -1,16 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     text-align: center;
 }
-div.menu{
-    background-color:black;
-    width: 100%;
-}
-p.fuente-enlace, p.fuente-enlace2{
-    display: inline-block;
-    padding: 5px;
-}
-span.prueba{
-    color: cornsilk;
+.tituloP{
+margin: 15PX;
 }
 p.tarjeta1, p.tarjeta2, p.tarjeta3, p.tarjeta4, p.tarjeta5{
     display: inline-block;
@@ -46,7 +42,7 @@ img{
     border: 3px solid rgb(12, 0, 173);
     padding: 2em;
 }
-p.fuente-enlace, h2.font-Satisfy, p.fuente-enlace2{
+h2.font-Satisfy{
     font-family: 'Satisfy', cursive;
     font-size: 25px;
  }
@@ -81,9 +77,7 @@ margin-right: 350px;
     font-style: italic;
     word-spacing: -0.1em;
 }
-a{
-    color:rgb(110, 108, 108);
-}
+
 span.resaltado{
     font-size: 1em;
     color: mediumorchid;
@@ -92,7 +86,8 @@ span.resaltado{
 
  form{
     width: 40%;
-    margin: 0 auto;   
+    margin: 0 auto;  
+    margin-top: 20px; 
  }
  
 fieldset.fo{
@@ -182,7 +177,7 @@ div.contenedor-1{
     width: 1050px;
     padding: 15px;
     border-collapse: collapse;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 tr, th.color1,th.color2,th.color3,th.color4{
     border: 1.5px solid rgb(252, 232, 198);
