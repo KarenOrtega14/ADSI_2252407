@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    
+    display: inline-block; 
+}
+ul.menu{
+    margin: 15px;
+    margin-top: 40px;
+    font-size: 1.2em;
+    width: 260px;
+}
+li{
+    background-color:darkblue;
+    padding: 20px;
+    display: block;
+    list-style: none;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+li.efecto:hover{
+    background-color:rgb(0, 20, 170);
+    font-size: 1.1em;
+}
