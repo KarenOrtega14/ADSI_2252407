@@ -26,8 +26,8 @@ a.efecto:hover{
     font-size: 1.1em;
 }
 #nav-bar1{
-    
     display: inline-block; 
+    margin-left: 23%;
 }
 ul.menu1{
     margin: 10px;

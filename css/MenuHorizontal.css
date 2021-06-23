@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
 }
-#nav-bar2{
+#nav-bar{
     display: inline-block; 
     width: 100%;
 }
-ul.menu1{
+ul.menu{
     margin: 5px;
     margin-top: 40px;
     font-size: 1.1em;
