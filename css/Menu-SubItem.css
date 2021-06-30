@@ -1,7 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 h1{
     text-align: center;
@@ -19,6 +18,7 @@ nav li {
 nav a{
     color: white;
     text-decoration: none;
+    padding: 0 3em;
     display: block;
 }
 
@@ -38,13 +38,13 @@ nav a{
 nav li li{
     width: 220px;
     height: 0;
-    overflow: hidden;
     background-color: darkcyan;
+    overflow: hidden;
 }
 nav li:hover > ul > li{
     overflow: visible;
     max-height: 100%;
 }
 .menu >li >ul{
-    top: 102%;
+    top: 100%;
 }
