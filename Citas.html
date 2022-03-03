@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/listas.css">
+    <title>CitasMedicas</title>
+</head>
+<body>
+    <ul class="menu">
+        <li><a class="efecto-item" href="Miscelanea.html">Marcas mas vendidas</a></li>
+        <li> <a class="efecto-item"href="Login.html" >contáctenos</a></li>
+        <li> <a class="efecto-item"href="Tablas.html">Tablas</a></li>
+        <li><a class="efecto-item"href="index.html">página principal</a></li>
+        <li><a href="" >Citas Médicas</a></li>
+        <li><a class="efecto-item"href="layouts.html" >Layouts</a></li>
+        <li><a class="efecto-item" href="MenuAbs.html" >MenuAbs</a></li>
+        <li><a class="efecto-item" href="MenuFixed.html" >Menu Fixed</a></li>
+        <li><a class="efecto-item" href="Background.html" >Background</a></li>
+    </ul>
+        <form action="tblcitas.html" method="get">
+        <fieldset class="formcitas">
+            <legend>Ingrese la información</legend><br>
+            Ingrese su numero de documento: <br>
+            <input type="text" name="nombres"> <br><br>
+            Tipo de documento<br><br>
+            <input type="radio" name="tdocumento" value="cedula" checked="checked">Cédula de ciudadania<br>
+            <input type="radio" name="tdocumento" value="tarjeta" >Tarjeta de Identidad<br>
+            <input type="radio" name="tdocumento" value="registro" >Registro Civil<br>
+            <input type="radio" name="tdocumento" value="pasaporte" >Pasaporte <br>
+            <input type="radio" name="tdocumento" value="extranjeria" >Cédula de Extranjeria<br><br>
+            Tipo de teléfono de interes <br><br>
+            <input type="checkbox" name="horario" value="am">Mañana <br>
+            <input type="checkbox" name="horario" value="pm"> Tarde <br> <br>
+            Médico <br><br>
+            <select name="medico">
+                <option value="Sebastian">Sebastian Ojeda</option><br>
+                <option value="wilfredo">Wilfredo Martinez</option><br>
+                <option value="Garzón">Jose Sacanamboy</option><br>
+            </select> <br> <br>
+            <input type="submit"value="Enviar">
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+div.row,
+div.contenedores {
+    border: 1px solid rgb(0, 0, 0, .2);
+}
+
+div {
+    border: 1px solid rgb(0, 0, 0, .3);
+}
+
+.row>[class^="col"] {
+    background-color: goldenrod;
+    color: white;
+}
+
+.contenedor>[class^="container"] {
+    background-color: grey;
+    height: 50px;
+    color: white;
+}
+
+.formularios {
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.formulario input[type="text"] {
+    margin: 5px 15px 15px 15px;
+    padding: 15px;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.form-select {
+    margin: 5px 15px 15px 15px;
+    padding: 15px;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.form-check-input {
+    margin-left: 10px;
+}
+
+.style-check-input {
+    margin-left: 10px;
+}
+
+style-switch {
+    margin: 0 auto;
+    border: none;
+}
+
+style-switch div {
+    border: none;
+}
+
+.style-switch .form-check-input {
+    font-size: 3em;
+}
+
+.style-switch .form-switch {
+    margin-bottom: 30px;
+}
+
+.label-flotante {
+    margin: 0 auto;
+}

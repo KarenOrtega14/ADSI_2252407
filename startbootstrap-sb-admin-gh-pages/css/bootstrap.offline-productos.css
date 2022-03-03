@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container-md {
+    margin-top: 50px;
+    border: 1px solid rgba(122, 72, 72, 0.4);
+    margin: 50px;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.size-reg-usuario {
+    font-size: 1.02em;
+
+}

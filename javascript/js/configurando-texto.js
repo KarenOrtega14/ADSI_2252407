@@ -1,0 +1,6 @@
+function expandirTexto() {
+    let textoCompleto ='Un grupo de científicos llevó a cabo una investigación en la que se encontró que el ritmo de enfriamiento del núcleo de la Tierra un lugar ubicado a casi 3.000 km de profundidad y que es fundamental para conservar las condiciones vitales en la superficie del planeta es mucho más acelerado de lo que se podría haber previsto.<br>'+
+    'Durante más de 4.500 millones de años, el núcleo de la Tierra ha conservado su temperatura extremadamente caliente. Sin embargo, durante los últimos años dicha temperatura ha bajado y los expertos advierten que este proceso de “enfriamiento” está ocurriendo a un ritmo mucho más acelerado de lo que se había previsto.<br>'+
+    "La investigación, citada por BBC Mundo, resalta que los científicos aún no saben con precisión cuánto tiempo tomará el enfriamiento del núcleo terrestre al punto de que pueda generar consecuencias devastadoras para albergar vida, pero destacan que dicho escenario implicaría, por ejemplo, la desaparición del campo magnético."
+    document.getElementById("texto-completo").innerHTML = textoCompleto;
+}

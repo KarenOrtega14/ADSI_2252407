@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.tituloP{
+margin: 15PX;
+}
+p.tarjeta1, p.tarjeta2, p.tarjeta3, p.tarjeta4, p.tarjeta5{
+    display: inline-block;
+    text-align: justify;
+    padding: 2em;
+    margin-left: 10px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    width: 160px;
+}
+p.tarjeta1, p.tarjeta2, p.tarjeta3, p.tarjeta4, p.tarjeta5, h1.registro{
+    color: cornsilk;
+}
+h2.espaciola, blockquote{
+    text-align: right;
+}
+h2.font-Satisfy, .font-negrita{
+    text-align: left;
+}
+ h1.cell{
+    font-size: 45px;
+    color: black;
+ } 
+ h2.espaciol{
+    line-height: 3em;
+}
+h2.espaciola{
+    line-height: .8em;
+}
+img{
+    margin: 0 auto 0 auto;
+    display: block;
+    border: 3px solid rgb(12, 0, 173);
+    padding: 2em;
+}
+h2.font-Satisfy{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+ }
+h2.font-Satisfy{
+    letter-spacing: .3em;
+    margin-top: 2em;
+}
+h2.font-jura{
+font-family: 'Jura',Arial, Helvetica, sans-serif;
+font-size: 2.5em;
+letter-spacing: -.08em;
+border-bottom: 5px double  rgb(0, 195, 255);
+margin-left: 350px;
+margin-right: 350px;
+}
+.font-Newsreader{
+    font-family: 'Newsreader', serif;
+    text-align: justify;
+   font-size: 2em;
+   border-top: 2px dashed red;  
+   margin: 1.5em;
+  margin-top: 5px;
+}
+.font-negrita, span.resaltado{
+    font-weight:bold;
+}
+.font-negrita{
+    word-spacing: 1em;
+}
+.font-italica{
+    font-size: 30pt;
+    font-style: italic;
+    word-spacing: -0.1em;
+}
+
+span.resaltado{
+    font-size: 1em;
+    color: mediumorchid;
+    font-style: 'Newsreader', serif;
+}
+
+ form{
+    width: 40%;
+    margin: 0 auto;  
+    margin-top: 20px; 
+ }
+ 
+fieldset.fo{
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color:rgb(253, 238, 238);
+}
+
+fieldset.formcitas{
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color:rgb(253, 238, 238);
+}
+ 
+ h1.registro{
+    border: 5px dotted blanchedalmond;
+    height: 60px; 
+    font-size: 2.5em;
+ }
+ blockquote{
+    border-left: 5px double greenyellow;
+    margin-left: 47em;
+    font-size: 1.4em;
+    font-weight: 900;
+    color: blueviolet;    
+    font-style: italic;
+  }
+  p.tarjeta1{
+    border: 5px dashed  black;
+    background-color:rgb(102, 1, 161);  
+}
+p.tarjeta2{
+    border: 5px solid rgb(0, 146, 122);
+    background-color:rgb(4, 85, 71); 
+}
+p.tarjeta3{
+    border: 5px dotted black;
+    background-color:rgb(5, 128, 56);
+}
+p.tarjeta4{
+    border: 5px double rgb(146, 145, 145);
+    background-color:rgb(44, 44, 44);
+}
+p.tarjeta5{
+    border: 5px groove rgb(83, 82, 82);
+    background-color:rgb(255, 0, 200);
+    float: left;
+    margin-left: 120px;
+}
+.contenedor-main{
+    margin: 40px;
+    background-color: darkcyan;
+    }
+div.contenedor-1{
+    height: 200px;
+    width: 350px;
+    background-color: darkgray;
+    display: inline-block;
+    margin: 1em;
+}
+@font-face {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jura-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/jura-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/jura-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/jura-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/jura-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/jura-v16-latin-regular.svg#Jura') format('svg'); /* Legacy iOS */
+  }
+  @font-face {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/jura-v16-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/jura-v16-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/jura-v16-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/jura-v16-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/jura-v16-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/jura-v16-latin-500.svg#Jura') format('svg'); /* Legacy iOS */
+  }
+  table{
+    margin: 0 auto;
+    width: 1050px;
+    padding: 15px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+tr, th.color1,th.color2,th.color3,th.color4{
+    border: 1.5px solid rgb(252, 232, 198);
+    font-size: 25px;
+    font-family: 'Jura'; 
+    font-style: normal;
+    color: black;
+}
+th.color1,th.color2,th.color3,th.color4{
+    padding: 30px;
+    color:white; 
+    text-align: center;
+}
+th.color1, th.color2, th.color3, th.color4, td{
+    border: 1.5px solid rgb(0, 0, 0);
+    color:white;
+    background-color: rgb(48, 48, 47);
+}
+td{
+    padding: 20px 20px;
+    background-color: rgb(248, 214, 170);
+    border-collapse: collapse;
+    text-align: left;
+    color: black;
+}

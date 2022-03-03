@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/selec_avanzados.css">
+    <title>Selectores Avanzados</title>
+</head>
+
+<body>
+    <h1>Selectores Avanzados</h1>
+    <h2>Selector ......... Elemento Padre</h2>
+    <p>Representa los hijos directos de un elemento </p>
+    <p>Ej:</p>
+    <div class="box-main-1">
+        <div class="general-box box-sub-padre">Box1
+            <div class="general-box box-sub-hijo">
+                Box 2
+            </div>
+        </div>
+        <div class="general-box">Box 3</div>
+        <div class="box-main-2">
+            <div class="general-box">Box 4</div>
+        </div>
+    </div>
+    <h2>Selector ......... ></h2>
+    <p>Representa los hijos directos de un elemento </p>
+    <p>Ej:</p>
+    <div class="box-main-3">
+        <div class="general-box box-sub-padre">Box1
+            <div class="general-box box-sub-hijo">
+                Box 2
+            </div>
+        </div>
+        <div class="general-box">Box 3</div>
+        <div class="box-main-2">
+            <div class="general-box">Box 4</div>
+        </div>
+    </div>
+
+    <h2>Selector ......... +</h2>
+    <p>Representa el hermano adyacente un elemento </p>
+    <p>Ej:</p>
+    <div class="box-main-5">
+        <div class="general-box box-gen-1">Box1</div>
+        <div class="general-box box-gen-2">Box 2 </div>
+        <div class="general-box box-gen-2">Box 2 </div>
+    </div>
+
+    <h2>Selector ......... ~</h2>
+    <p>Representa los hermanos de un elemento </p>
+    <p>Ej:</p>
+    <div class="box-main-6">
+
+        <div class="general-box box-gen-1_h">Box1</div>
+        <div class="general-box box-gen-2_h">Box 2 </div>
+        <div class="general-box box-gen-2_h">Box 2 </div>
+        <div class="general-box ">Box 2 </div>
+        <div class="general-box box-gen-2_h">Box 2 </div>
+    </div>
+    <h2>Selector ......... </h2>
+    <p>Representa los hermanos de un elemento </p>
+    <p>Ej:</p>
+
+    <div class="box-main-7">
+
+        <div class="box-11 general-box">Box 11 </div>
+        <div class="box-12 general-box">Box 12</div>
+        <div class="box-13 general-box">Box 13 </div>
+        <div class="box-14 general-box">Box 14 </div>
+        <div class="box_15 general-box">Box 15 </div>
+    </div>
+</body>
+
+</html>

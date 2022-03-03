@@ -1,0 +1,50 @@
+.general-box {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+div {
+    float: left;
+    position: static;
+}
+
+
+/*todos los hijos*/
+
+.box-main-1 div {
+    background-color: goldenrod;
+}
+
+.box-sub-padre {
+    margin-right: 310px;
+}
+
+.box-sub-hijo {
+    margin-left: 310px;
+    margin-top: -20px;
+}
+
+
+/*hijo directo*/
+
+.box-main-3>div {
+    background-color: darkcyan;
+}
+
+h2 {
+    clear: both;
+}
+
+.box-gen-1+.box-gen-2 {
+    background-color: darkcyan;
+}
+
+.box-gen-1_h~.box-gen-2_h {
+    background-color: darkcyan;
+}
+
+.box-main-7>[class^="box-"] {
+    background-color: rgb(220, 8, 0);
+}

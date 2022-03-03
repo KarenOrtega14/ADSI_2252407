@@ -1,0 +1,42 @@
+
+ p{
+     font-weight: bold;
+ }
+.size-reg-usuario {
+    font-size: 1.02em;
+    
+}
+h2{
+    font-size: 1.3em;
+}
+label, .Descrip{
+    font-size: 1.2em;
+}
+.condiciones {
+    padding: 15px;
+}
+.btn-confirmar{
+    background: rgb(11, 150, 60);
+    border: 1px solid rgb(11, 150, 60);
+}
+.btn-confirmar, .btn-cancelar{
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    color: white;
+}
+.icon-shopping-cart, .icon-block{
+    font-size: 1.5em;
+}
+.btn-cancelar{
+    background: darkred;
+    border: 1px solid darkred;
+}
+.btn-confirmar:hover{
+    background: rgb(11, 130, 90);
+    border: 1px solid rgb(11, 130, 90);;
+}
+.btn-cancelar:hover{
+    background: rgb(172, 11, 11);
+    border: 1px solid (172, 11, 11);
+}
