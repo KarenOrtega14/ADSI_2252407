@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.encabezado {
+  text-align: right;
+    display: grid;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(16, 0, 79);
+  font-family: 'Times New Roman', Times, serif;
+    grid-template: "iconoLatam  LaOfertas LaVijes laAyuda btn icono-barra" / 
+                    1fr 1fr 1fr 1fr 1fr 2fr;
+}
+.icono-barra {
+  margin-right: 20px;
+  font-size: 2.5em;
+  font-weight: bold;
+  grid-area: icono-barra;
+  cursor: pointer;
+ color: white;
+}
+.style-contentInfo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing:border-box;
+    border: 1px solid rgb(48,48,48,.2); 
+    grid-template: "titulo titulo titulo" 50px 
+                   "label1 label2 destino" auto/
+                     6fr       8fr;
+}
+.titulo {
+  padding-top: 0;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 50px;
+  grid-area: titulo;
+}
+.horaSal {
+  font-size: 1.3em;
+  color: rgb(1, 1, 102);
+  width: 100%;
+  grid-area: label1;
+}
+.horaLleg {
+  font-size: 1.3em;
+  color: rgb(1, 1, 102);
+  width: 100%;
+  grid-area: label2;
+}
+.destino{
+  width: 100%;
+  grid-area: destino;
+}
+
+.icon {
+  padding: 10px;
+  margin-left: 80px;
+  grid-area: iconoLatam;
+}
+.LaOfertas {
+  color: white;
+  padding: 20px;
+  grid-area: LaOfertas;
+}
+.LaVijes {
+  color: white;
+  padding: 20px;
+  grid-area: LaVijes;
+}
+.laAyuda{
+  color: white;
+  padding: 20px;
+  grid-area: laAyuda;
+}
+.btnSesion{
+  margin: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgba(50, 28, 139, 0.945);
+  width: 142px;
+  height: 40px;
+  border-radius:15px;
+  border: none;
+  grid-area: btn;
+}
