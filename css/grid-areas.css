@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+Header, Nav, Aside, Main, Footer{
+    color: white;
+    padding: 20px;
+    font-size: 1.6em;
+    border: 3px solid whitesmoke;
+    text-align: center;
+}
+.header{
+    background-color: darkcyan;
+    grid-area: header;
+}
+.navbar{
+    background-color: goldenrod;
+    grid-area: navbar;
+}
+.sidebar{
+    background-color: limegreen;
+    grid-area: sidebar;
+}
+.main{
+    background-color: #fb5b04;
+    grid-area: main;
+}
+.footer{
+    background-color: rgb(177, 160, 160);
+    grid-area: footer;
+}
+.page-content{
+    display: grid;
+    grid-template: "header header" 100px
+                   "navbar navbar" 100px
+                   "sidebar main" 400px
+                   "footer footer" 150px/
+                   200px auto;
+
+}
+@media only screen and (max-width: 600px){
+    .page-content{
+    display: grid;
+    grid-template: "header " 100px
+                   "navbar" 100px
+                   "main" 500px
+                   "sidebar"300px
+                   "footer" 150px;
+}
+}

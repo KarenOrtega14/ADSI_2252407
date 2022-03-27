@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+}
+:root{
+    --primary: #bdc3c79f;
+    --secundary: #2c3e509f;
+}
+/* imagenes con degradado */
+.gradient{
+    background: linear-gradient(135deg, var(--primary), var(--secundary)),
+    url('../images/tecnologiaFondo.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.titulo{
+    margin:0 auto;
+    width: 350px;
+    background-color: red;
+}
+h1{
+    color:white;
+    font-size: 5.5em;
+    margin-top: 200px;
+    position: absolute;
+    font-style: italic;
+}
+p{
+    color: whitesmoke;
+    font-style: italic;
+    font-family: 'MonteCarlo', cursive;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    text-align: right;
+    font-size: 3.8em;
+}

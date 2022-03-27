@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 40px;
+    color: darkcyan;
+    font-style: italic;
+}
+div.tituloP{
+    margin-top: 20px;
+}
+
+h2.font-Satisfy{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
+img.p{
+    margin-left: 20px;
+    margin-right: 20px;
+    float:left;
+}
+div.b2{
+    float: right;
+}
+p{
+    margin: 20px;
+    font-size: -0.5em;
+    color: rgb(85, 84, 84);
+}
+
+div.b2{
+     display: inline-block;
+     margin-right: 20px;
+     margin-left: 20px;
+}
+
+h1{
+     text-align: center;
+     color:black;
+}
+h1.cell{
+     color: rgb(0, 0, 0);
+      text-align: center;
+     font-style: normal;
+     font-size: 1em;
+} 
+
+h3{
+     text-align: center;
+     color: darkblue;
+     border-bottom: 3px dotted gray;   
+}
+img{
+      display: block;
+      margin:  0 auto;
+      margin-bottom: -10px;
+      margin-top: -10px;
+}
+p.img-card1,p.img-card, #parrafoespecial{
+     text-align: center;
+     color: rgb(48, 48,48);
+     font-size: 1em;
+     font-style: normal;
+     font-weight: bold;
+    line-height: 0.2em;
+}
+p.img-card{
+     font-size: .45em;
+     font-weight: normal;
+}
+#parrafoespecial{
+    font-weight: 400;
+    font-size: 0.7em;
+}
+div.box-card{
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 5px;
+    border-radius: 7px;
+}
+div.main-content{
+    width: 1250px;
+    margin: 0 auto;
+}
+table{
+    margin: 0 auto;
+    width: 1050px;
+    padding: 5px;
+}
+tr, th.color1,th.color2,th.color3,th.color4,th.color5,th.color6, th.color7,th.color8, td,td.d1,td.d2,td.d3,td.d4,td.d5,td.d6,td.d7,td.d8{
+    border: 1.5px solid rgb(252, 232, 198);
+    font-size: 25px;
+    font-family: 'Jura'; 
+    font-style: normal;
+    color: black;
+}
+th.color1,th.color2,th.color3,th.color4,th.color5,th.color6,th.color7,th.color8{
+    padding: 20px;
+    color:white; 
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+}
+th.color1{
+    border: 1.5px solid rgb(19, 149, 255);
+    background-color: rgb(19, 149, 255);
+    color:white;
+    
+}
+th.color2{
+    border: 1.5px solid rgb(18, 57, 143);
+    background-color: rgb(18, 57, 143);
+    color:white;
+}
+th.color3{
+    border: 1.5px solid rgb(47, 0, 255);
+    background-color: rgb(47, 0, 255);
+    color:white;
+}
+th.color4{
+    border: 1.5px solid rgb(252, 111, 29);
+    background-color: rgb(252, 111, 29);
+    color:white;
+}
+
+th.color5{
+    border: 1.5px solid rgb(2, 255, 57);
+    background-color: rgb(2, 255, 57);
+    color: white;
+
+}
+th.color6{
+    border: 1.5px solid rgb(235, 31, 174);
+    background-color: rgb(235, 31, 174);
+    color: white;
+}
+th.color7{
+    border: 1.5px solid rgb(82, 78, 78);
+    background-color: rgb(82, 78, 78);
+    color: white;
+}
+th.color8{
+    border: 1.5px solid rgb(112, 112, 112);
+    background-color: rgb(112, 112, 112);
+    color: white;
+}
+td.d1, td.d2, td.d3,td.d4,td.d5,td.d6,td{
+    padding: 20px 20px;
+    background-color: rgb(255, 246, 231);
+    border-collapse: collapse;
+    text-align: left;
+}
+img.img1{
+    float: right;
+    padding: 15px;
+}
+th.color7,th.color8{
+    padding: 5px;
+    width: 30%;
+}

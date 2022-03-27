@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .main-content, .content1,.content2,.content3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 180, 180);
+    margin-bottom:  5px;
+
+} */
+.content4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(88, 167, 231);
+    clip-path: circle(50% at center);
+    transition: width 1500ms;
+}
+.content4:hover{
+    width: 400px;
+    clip-path: circle(80% at top left);
+}
+
+/* duracion */
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    transition-duration: 3s ;
+}
+.container:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 0px 90px 0px;
+
+}
+/* retrazo */
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transition: width 2s;
+    margin-bottom: 20px;
+}
+.box:hover{
+    width: 300px;
+   background: rebeccapurple;
+   color: #fff;
+}
+/* delay */
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    margin-bottom: 20px;
+}
+.box1:hover{
+    width: 300px;
+    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    transition: width 2s, height 2s, transform 2s;
+    background-color: aquamarine;
+}
+.box2:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+    border-radius: 20px;
+}

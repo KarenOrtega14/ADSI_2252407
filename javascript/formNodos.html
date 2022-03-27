@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/FormNodos.css">
+    <title>Form Nodos</title>
+</head>
+<body>
+    <h1>Registrar Producto</h1>
+    <form id="frm" action="">
+    <div  class="form">
+        <div class="a"><label>Codigo del producto</label></div>
+        <div class="b"><input type="text" placeholder="Ingrese codigo producto" id="codigo"> </div>
+        <div class="c"><label for="">Descripcion</label></div>
+        <div class="d"><input type="text" placeholder="Descripcion producto" id="descripcion"></div>
+        <div class="f"><label for="">Valor Unitario</label></div>
+        <div class="g"><input type="text" placeholder="Valor Unitario producto" id="valor"> </div>
+        <div class="h"><label for="">Unidades Stock</label></div>
+        <div class="i"><input type="text" placeholder="Stock" id="stock"></div>
+        <div class="j"><button type="button" onclick="crearTabla();" value="Guardar registro" class="btn">Cargar Producto</button></div>
+
+    </div>
+</form>
+
+    <div id="main-content">  </div>
+</body>
+<script src="js/formNodo.js"></script>
+</html>

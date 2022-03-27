@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+#nav-bar{
+    position: absolute;
+    width: 100%;
+}
+ul{
+    text-align: right;
+}
+li{
+    display: inline-block;
+    font-size: 1.4em;
+    padding: 0.8em 0.3em;
+}
+a{
+    color:orangered;
+    text-decoration: none;
+    list-style: none;
+}
+a.efecto-item:hover{
+    font-size: 1.2em;
+}

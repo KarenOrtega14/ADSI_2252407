@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #252528;
+    color: rgba(255, 255, 255, .8);
+    padding: 0 1em;
+}
+h1{
+    font-size: 1.5em;
+    text-align:right;
+    color: rgba(255, 255, 255, .8);
+    margin: 40px 40px 35px 0;
+    padding-right: 5em;
+}
+nav{
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.8);
+    padding-right: 2em;
+    padding-top: 3em; 
+    z-index: 10;
+    left: -20em;
+    top: 0;
+    transition: all .5s;
+}
+
+.menu{
+   padding-top: 0;
+   list-style: none;
+   line-height: 65px;
+   margin: 2em auto 0 auto;
+   width: 18em;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-left: 1.2em;  
+    width: 100%;
+    font-family: cursive;
+   
+}
+.menu li{
+    box-shadow: 3px 0 rgb(255, 255, 255,.2) inset;
+    padding-left: .5em;
+    margin-bottom: 5px;
+    transition: all .5s;
+    
+}
+.menu li:hover{
+    box-shadow: 14em 0 rgba(255, 255, 255, .2) inset;
+}
+.menu a:hover{
+    margin-left: 0.5em;
+}
+.fas, .fab{
+    color:white;
+    padding-right: .3em;
+    font-size: 1.4em;
+}
+.fa-bars{
+    position: absolute;
+    left: 20px;
+    z-index: 20;
+    font-size: 1.5em;
+}
+.icono-menu{
+    position: absolute;
+    z-index: 20;
+    top: 20px;
+    left: 20px; 
+    cursor: pointer;
+}
+nav.mostrar{
+left: 0;
+}
+
+article{
+    font-size: 1.4em;
+    line-height: 1.5em;
+    padding: .5em 3.5em 0 0;
+    text-align: justify;
+}
+footer{
+    border-top: 2px solid rgb(255, 255, 255,.1);
+}

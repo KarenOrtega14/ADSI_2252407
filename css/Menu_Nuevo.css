@@ -1,0 +1,50 @@
+
+.caja1, .caja2,.caja3, .caja4{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+.caja1{
+    background-color: rgb(116, 232, 236);
+   top: 0;
+   left: 0;
+}
+.caja2{
+    background-color: rgb(187, 164, 209);
+  top: 0;
+  right: 0;
+}
+.caja3{
+    background-color: rgb(209, 164, 198);
+    bottom: 0;
+    right: 0;
+}
+.caja4{
+    background-color: rgb(236, 247, 137);
+    bottom: 0;
+    left: 0;
+}
+.caja5{
+    background-color: rgb(247, 150, 137);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:100%;
+    left:100%;
+}
+/* .caja6{
+    background-color: rgb(99, 150, 247);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:100%;
+    left:200%;
+}
+.caja7{
+    background-color: rgb(59, 241, 90);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:100%;
+    left:300%;
+} */

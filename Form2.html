@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Form2.css">
+    <title>CitasMedicas</title>
+</head>
+<body>
+    <h1>Citas Médicas</h1>
+        <form method="get">
+        <fieldset>
+            <div class="box-formulario">
+            <input  class="controls" type="text" name="nombres" placeholder="Ingrese su(s) nombres"> <br><br>
+            <input  class="controls"type="text" name="apellidos" placeholder="Ingrese sus apellidos"> <br><br>
+            Observaciones <br><br>
+            <textarea class="controls-t-area" name="Observaciones" cols="40" rows="5">Observaciones(max. 200 carácteres)</textarea> <br>
+            Ver Días Disponibles <br><br>
+            <input class="controls-check" type="checkbox" name="horario" value="am">Lunes <br>
+            <input class="controls-check" type="checkbox" name="horario" value="pm"> Martes <br>
+            <input class="controls-check" type="checkbox" name="horario" value="pm"> Miercoles <br>
+            <input class="controls-check" type="checkbox" name="horario" value="pm"> Jueves <br>
+            <input class="controls-check" type="checkbox" name="horario" value="pm"> Viernes <br><br>
+            IPS de atención <br>
+            <input class="controls-check" type="radio" name="tdocumento" value="cedula" checked="checked">IPS centro<br>
+            <input class="controls-check" type="radio" name="tdocumento" value="tarjeta" >IPS Agua Blanca<br>
+            <input class="controls-check" type="radio" name="tdocumento" value="registro" >IPS Calamo<br>
+            <input class="controls-check" type="radio" name="tdocumento" value="pasaporte" >IPS Solarte<br><br>
+            Seleciona un médico <br><br>
+            <select class="controls" name="medico">
+                <option value="Sebastian">Liliana Yisela Gómez</option><br>
+                <option value="wilfredo">Wilfredo Martinez</option><br>
+                <option value="Garzón">Jose Sacanamboy</option><br>
+            </select> <br> <br>
+            <input class="controls-button" type="submit"value="Enviar">
+        </div>
+        </fieldset>
+    </div>
+</body>
+</html>

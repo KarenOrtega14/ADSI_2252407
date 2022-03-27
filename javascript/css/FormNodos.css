@@ -1,0 +1,79 @@
+*{
+    font-family: helvetica;
+}
+h1{
+    text-align: center;
+}
+.form{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 760px;
+    margin: o auto;
+}
+input{
+    width: 80%;
+    height: 30px;
+    margin-right: 0;
+    padding-right: 5%;
+}
+
+ #descripcion{width: 90%;}
+
+.btn{
+    font-size: 15px;
+    color: #fff;
+    background-color: rgb(1, 162, 255);
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+div > .form{
+    display: grid;
+}
+.a { grid-area: al;}
+.b { grid-area: bl;  }
+.c { grid-area: cl; }
+.d { grid-area: dl; }
+.f { grid-area: fl; }
+.g { grid-area: gl;  }
+.h { grid-area: hl; }
+.i { grid-area: il;  }
+.j { grid-area: jl; }
+
+.form{
+    padding: 10px;
+    margin: 0 auto;
+    grid-gap: -1rem;
+    display: grid;
+    grid-template-columns: 170px 200px 200px 190px;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-areas: "al bl bl bl"
+                        "cl dl dl dl "
+                        "fl gl hl il"
+                        "jl jl jl jl";
+                        
+}
+
+
+#main-content{  
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 800px;}
+.table-style{
+    border-collapse: collapse;
+}
+.table-style th{ 
+   height: 40px;
+    border: 1px solid rgb(78, 78, 78); 
+    background-color: rgb(104, 183, 248);
+    color: white;
+    width: 720px;
+}
+.table-style td{border: 1px solid rgb(78, 78, 78) ; 
+    text-align: center;
+    height: 30px;}

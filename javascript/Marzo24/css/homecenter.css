@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .encabezado {
+    text-align: center;
+      display: grid;
+      width: 100%;
+      height: 80px;
+      border-bottom: 1px solid rgb(114, 114, 114);
+      background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+      grid-template: "icono-barra  logo icon-lupa iconCar icon-user" / 
+                      1fr 1fr 2fr 1fr 1fr;
+  }
+  .encabezadoBuscar {
+    text-align: center;
+      display: grid;
+      width: 100%;
+      height: 80px;
+      border-bottom: 1px solid rgb(114, 114, 114);
+      background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+      grid-template: "icon-lupa buscar iconCancel" / 
+                      1fr 3fr 1fr;
+  }
+  .inputBuscar{
+      
+      grid-area: buscar;
+  }
+
+  .iconCancel{
+      grid-area: iconCancel;
+  }
+  
+  .icono-barra, .icon {
+      font-family: Times, 'Times New Roman', serif;
+    font-size: 2em;
+    font-weight: bold;
+    grid-area: icono-barra;
+    cursor: pointer;
+   color: rgb(54, 54, 54);
+  }
+  .icono-barra{
+    margin:20px auto;
+  }
+  .logohome{
+      margin-top: 15px;
+      grid-area: logo;
+  }
+  .icono-carrito{
+      margin-top: 20px;
+      text-align: right;
+      grid-area: iconCar;
+  }
+  .icon-lupa{
+    margin-top: 20px;
+    text-align: right;
+      grid-area: icon-lupa;
+  }
+  .icon-usuario{
+    margin: 20px 5px 0 45px;
+    margin-left: 50px;
+      grid-area: icon-user;
+  }
+  .style-contentInfo{
+      font-family: Arial, Helvetica, sans-serif;
+      display: grid;
+      margin: 20px;
+      border-radius: 10px;
+      /* padding: 0 20px 20px 20px; */
+      box-sizing:border-box;
+      border: 1px solid rgb(48,48,48,.2); 
+      grid-template: "titulo titulo titulo" 30px 
+                     "label1 txt label2" 32px
+                     "cuidadSal dur destino" 32px
+                     "lineaDiv lineaDiv lineaDiv" 
+                     "infoValor infoValor infoValor"15px
+                     "info info valor" auto/
+                       6fr       8fr 1fr;
+  }
